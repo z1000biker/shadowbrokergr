@@ -10,6 +10,50 @@ The original application is a real-time OSINT dashboard that aggregates multiple
 - **Real-time Map Layers**: Includes live commercial/military/private flights, AIS maritime tracking, GDELT conflict alerts, and more.
 - **3D Visualization**: Powered by Cesium with high-resolution satellite imagery support.
 
+
+---
+
+## Features
+
+- Aircraft tracking
+- Maritime traffic monitoring
+- Satellite tracking
+- Global event visualization
+- GPS interference detection
+
+---
+
+
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/z1000biker/shadowbrokergr.git  
+cd shadowbrokergr
+
+Run with Docker:
+
+docker compose up -d
+
+Open in browser:
+
+http://localhost:3000
+
+---
+
+## Project Structure
+
+shadowbrokergr
+- frontend
+- backend
+- docs
+- docker-compose.yml
+- README.md
+
+---
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -42,3 +86,6 @@ The original application is a real-time OSINT dashboard that aggregates multiple
 
 ---
 *Based on the Shadowbroker project created by BigBodyCobain.*
+## License
+
+MIT
